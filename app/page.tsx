@@ -207,10 +207,6 @@ export default function Home() {
                 event.currentTarget.style.display = "none";
               }}
             />
-            <div className="portrait-placeholder">
-              <span>SC</span>
-              <p>COMPUTER SCIENCE · DEVELOPER</p>
-            </div>
           </div>
 <div className="visual-caption">
   <span>DESIGN</span>
