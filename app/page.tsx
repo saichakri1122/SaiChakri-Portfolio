@@ -42,7 +42,7 @@ const projects = [
     title: "Tomato Leaf Disease Detection",
     description:
       "A two-stage CNN system designed to identify tomato leaves and classify tomato leaf diseases.",
-    tech: ["Python", "PyTorch", "CNN", "Computer Vision"],
+    tech: ["Python", "PyTorch", "CNN", "Computer Vision","Next.js","FAST API"],
     symbol: "❋",
     theme: "project-red",
     link: "https://github.com/saichakri1122/AI-Powered-Tomato-Leaf-Disease-Detection-System",
@@ -58,6 +58,17 @@ const projects = [
     theme: "project-purple",
     link: "https://github.com/saichakri1122/Medical-Image-Segmentation",
   },
+  {
+  number: "06",
+  category: "FULL-STACK DEVELOPMENT",
+  title: "OrbitDesk",
+  description:
+    "A full-stack support desk ticket management system featuring ticket creation, assignment, status updates, search, filtering, dashboard metrics, and ticket tracking.",
+  tech: ["Next.js", "React", "Node.js", "Express.js", "PostgreSQL", "REST APIs"],
+  symbol: "◈",
+  theme: "project-purple",
+  link: "https://github.com/saichakri1122",
+},
 ];
 
 const experiences = [
@@ -82,6 +93,14 @@ const experiences = [
     description:
       "Built machine learning projects involving diabetes prediction and employee salary prediction.",
   },
+  {
+  role: "Web Developer Intern",
+  company: "Codec Technologies",
+  duration: "2 Months",
+  description:
+    "Worked on full-stack web development, gaining hands-on experience in building responsive web interfaces and developing backend functionality using modern web technologies.",
+  tech: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express.js","PostgreSQL"],
+},
 ];
 
 const skillGroups = [
@@ -105,6 +124,10 @@ const skillGroups = [
     title: "Developer Tools",
     items: ["Git", "GitHub", "VS Code", "Google Colab", "Vercel"],
   },
+  {
+  title: "Testing Tools",
+  items: ["Thunder Client", "Postman", "Selenium (Basic)"],
+},
 ];
 
 export default function Home() {
